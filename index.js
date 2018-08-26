@@ -8,7 +8,7 @@ function distanceFromHqInBlocks (someValue) {
 
 function distanceFromHqInFeet (someValue) {
   distanceFromHqInBlocks(someValue);
-  return somevalue * 264
+  return someValue * 264
 }
 /*
 function distanceTravelledInFeet (startBlock, endBlock) {
