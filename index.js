@@ -31,3 +31,4 @@ function calculatesFarePrice (startBlock, endBlock) {
 
   }
 }
+*/
