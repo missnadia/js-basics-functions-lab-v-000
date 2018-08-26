@@ -7,7 +7,7 @@ function distanceFromHqInBlocks (someValue) {
 }
 
 function distanceFromHqInFeet (someValue) {
-  let distanceFeet = distanceFromHqInBlocks(someValue);
+  let distanceFeet = distanceFromHqInBlocks (someValue);
   return distanceFeet * 264
 }
 
@@ -19,7 +19,6 @@ function distanceTravelledInFeet (startBlock, endBlock) {
   }
 }
 
-/*
 function calculatesFarePrice (startBlock, endBlock) {
   distanceTravelledInFeet (startBlock, endBlock);
   if () {
