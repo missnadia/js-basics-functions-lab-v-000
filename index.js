@@ -1,8 +1,8 @@
-function distanceFromHqInBlocks (blockNumber) {
-  if (blockNumber > 42) {
-    return blockNumber - 42;
+function distanceFromHqInBlocks (someValue) {
+  if (someValue > 42) {
+    return someValue - 42;
   } else {
-    return 42 - blockNumber;
+    return 42 - someValue;
   }
 }
 
