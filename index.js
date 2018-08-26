@@ -12,7 +12,7 @@ function distanceFromHqInFeet (someValue) {
 }
 
 function distanceTravelledInFeet (startBlock, endBlock) {
-  (startBlock > endBlock) ? (return (startBlock - endBlock) * 264;) : (return (endBlock - startBlock) * 264;)
+  startBlock > endBlock ? (return (startBlock - endBlock) * 264) : (return (endBlock - startBlock) * 264)
 }
 
 function calculatesFarePrice (startBlock, endBlock) {
