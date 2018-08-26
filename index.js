@@ -6,7 +6,7 @@ function distanceFromHqInBlocks (someValue) {
   }
 }
 
-/* function distanceFromHqInFeet (someValue) {
+ function distanceFromHqInFeet (someValue) {
   distanceFromHqInBlocks(someValue);
   let result;
   if () {
@@ -23,7 +23,7 @@ function distanceTravelledInFeet (startBlock, endBlock) {
     }
     return result
 }
-
+/*
 function calculatesFarePrice (startBlock, endBlock) {
   if () {
     'cannot travel that far'
