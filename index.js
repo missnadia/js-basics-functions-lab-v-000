@@ -2,16 +2,13 @@ function distanceFromHqInBlocks (someValue) {
   if (someValue > 42) {
     return someValue - 42;
   } else {
-    return 42 - someValue;
+    return 42 - someValue
   }
 }
 
- function distanceFromHqInFeet (someValue) {
+function distanceFromHqInFeet (someValue) {
   distanceFromHqInBlocks(someValue);
-  let result;
-  if () {
-
-  }
+  return somevalue * 264
 }
 /*
 function distanceTravelledInFeet (startBlock, endBlock) {
